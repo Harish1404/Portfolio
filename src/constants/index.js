@@ -15,13 +15,11 @@ import {
     figma,
     Loan,
     PyPal,
-    threejs,
     Accenture,
     Cts,
     Python,
     Tableau,
     PowerBI,
-    C,
   } from "../assets";
   
   export const navLinks = [
@@ -84,6 +82,10 @@ import {
       icon: nodejs,
     },
     {
+      name: "figma",
+      icon: figma,
+    },
+    {
       name: "SQL",
       icon: SQL,
     },
@@ -100,18 +102,7 @@ import {
       name: "PowerBI",
       icon: PowerBI,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
+
   ];
   
   const experiences = [
